@@ -10,6 +10,6 @@ add_executable(run_test
         Ej-03-test.cpp
         Ej-04-test.cpp
         Ej-05-test.cpp
-        )
+        ../Pila/Nodo.h)
 
 target_link_libraries(run_test gtest gtest_main)
