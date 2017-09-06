@@ -56,7 +56,7 @@ Pila<T>::~Pila() {
  */
 template<class T>
 void Pila<T>::push(T dato) {
-    auto *aux = new Nodo(dato, inicio);
+    auto *aux = new Nodo<T>(dato, inicio);
     inicio = aux;
 }
 
